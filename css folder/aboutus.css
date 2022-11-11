@@ -1,0 +1,88 @@
+.navbar {
+    width: 44cm;
+}
+
+.aboutus {
+    /* text-decoration: underline; */
+    color: black;
+    height: 2cm;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 3cm;
+    /* background-color:black; */
+}
+
+.container {
+    background-color: transparent;
+    color: white;
+    width: 32cm;
+    text-align: center;
+    font-size: 30px;
+    margin: 8px;
+    margin-top: 65px;
+    margin-left: 165px;
+    margin-bottom: 65px;
+    padding: 4px;
+    font-weight: 300;
+}
+
+.navbar div img {
+    border-radius: 500px;
+    height: 1.7cm;
+
+}
+
+.aboutusimg {
+    display: flex;
+}
+
+.firstimage img {
+    height: 8cm;
+    width: 17cm;
+    margin-left: 3cm;
+    padding: 10px;
+}
+
+.secondimage img {
+    height: 8cm;
+    width: 17cm;
+    padding: 10px;
+}
+
+.thirdimage img {
+    height: 15cm;
+    width: 36cm;
+    margin-left: 27px;
+}
+
+.footer {
+    background-color: grey;
+}
+
+.footer {
+    position: absolute;
+    top: 47.3cm;
+    color: black;
+    width: 40.2cm;
+}
+
+.footerfirst {
+    padding-right: 17cm;
+    padding-left: 337px;
+}
+
+body {
+    background-image: url("/WhatsApp\ Image\ 2022-11-11\ at\ 20.23.00.jpg") !important;
+    /* opacity: 0.7; */
+    /* background: rgba(0, 0, 0, 0.2); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    /* backdrop-filter: blur(5px) !important; */
+
+}
+
+.aboutusheading {
+    text-decoration: underline;
+}

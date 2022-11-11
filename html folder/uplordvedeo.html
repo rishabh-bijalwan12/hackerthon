@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css folder/index.css">
+    <link rel="stylesheet" href="/css folder/uplordvideo.css">
+    <style>
+        body {
+            background-color: rgb(0, 0, 0, .8);
+        }
+    </style>
+    <title>Upload Video</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="/download.jpg" alt="">
+        </div>
+        <ul class="ul">
+            <li class="list"><a href="/html folder/index.html">Home</a></li>
+            <li class=" list"><a href="/html folder/aboutus.html">About</a></li>
+            <li class="list"><a href="/html folder/contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+    <div id="container" class="container">
+        <h1 id="h1" class="h1">You Succesfully Login to your account</h1>
+        <h2 id="h2">Now You can Upload video related to your subject</h2>
+        <h1 id="h12" class="h12">Choose your subject </h1>
+        <div id="box" class="box">
+            Maths<input id="radio" class="radio" type="radio" name="Subject">
+            Chemistry<input id="radio1" class="radio" type="radio" name="Subject">
+            Physics<input id="radio2" class="radio" type="radio" name="Subject">
+            Social studies<input id="radio3" class="radio" type="radio" name="Subject">
+            <button onclick="video()" id="btn" class="btn btn6">Click here</button>
+        </div>
+    </div>
+
+    <div class="container2 ">
+        <video id="video1" controls class="displayvideo video" src="/videoplayback.mp4"></video>
+        <a href="/html folder/seeallvideo.html"><input id="btn1" class="btn1 btn2" type="button" value="Upload"></a>
+    </div>
+
+    <script>
+        function video() {
+            var x = document.getElementById('video1');
+            x.classList.remove("displayvideo");
+            var z = document.getElementById('btn1');
+            z.classList.remove("btn2");
+            remove()
+        }
+
+        function remove() {
+            var y = document.getElementById('container');
+            y.classList.remove("container");
+            y.style.display = 'none';
+            var a = document.getElementById('h1');
+            a.classList.remove("h1");
+            var b = document.getElementById('h2');
+            b.classList.remove("h2");
+            var c = document.getElementById('h12');
+            c.classList.remove("h12");
+            var d = document.getElementById('box');
+            d.classList.remove("box");
+            d.style.display = 'none';
+
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+body {
+    height: 15cm;
+    width: 30.1cm;
+    /* background-color: #00A885; */
+    font-family: sans-serif;
+    /* background-color: blueviolet; */
+}
+
+.navbar {
+    width: 40.1cm;
+    position: fixed;
+    background-color:black;
+    display: flex;
+    border: 2px solid black;
+    opacity: .8;
+    z-index: 122;
+}
+
+.container {
+    background-color: #f2f2f2;
+    color: black;
+    width: 40.1cm;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 3cm;
+    height: 12.9cm;
+    padding-bottom: 3cm;
+}
+
+.h1 {
+    color: maroon;
+    text-decoration: underline;
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+    left: 8.7cm;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.container h2 {
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    left: 8cm;
+    margin-left: 2.5cm;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.h12 {
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    top: 1cm;
+    left: -4.9cm;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+
+.box {
+    background-color: white;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 10px;
+    padding-top: 15px;
+    padding-left: 8cm;
+    position: relative;
+    margin-left: 7cm;
+    top: 1.8cm;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 17cm;
+    font-size: 25px;
+}
+
+.btn {
+    border-radius: 12px;
+    position: relative;
+    top: 2cm;
+    padding: 10px;
+    font-size: 23px;
+    cursor: pointer;
+    background-color: rgb(221, 130, 145);
+    margin-top: 1cm;
+    margin-left: 3.5cm;
+    width: 20%
+}
+
+
+.radio {
+    display: inline-block;
+    font-size: 40px;
+}
+
+.container2 {
+    width: 63%;
+    margin-left: 11cm;
+    height: 8cm;
+}
+
+.displayvideo {
+    display: none;
+}
+
+
+.btn2 {
+    display: none;
+}
+
+.btn1 {
+
+    border-radius: 12px;
+    position: relative;
+    padding: 10px;
+    font-size: 23px;
+    cursor: pointer;
+    background-color: rgb(221, 130, 145);
+    margin-top: 1cm;
+    margin-left: 3.5cm;
+    width: 20%;
+    position: relative;
+    left: 4cm;
+    top: 12cm;
+}
+
+.video {
+    position: absolute;
+    top: 2cm;
+    border: 2px solid black;
+    height: 10cm;
+    width: 18cm;
+}
